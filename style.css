@@ -25,6 +25,7 @@ body{
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 40px var(--shadow-color);
+  top: 40%;
 }
 .envelope-wrapper > .envelope {
   position: relative;
@@ -55,10 +56,11 @@ body{
 }
 .envelope > .letter {
   position: absolute;
+  /* top: 30%; */
   right: 20%;
   bottom: 0;
   width: 54%;
-  height: 80%;
+  height: 70%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
@@ -112,4 +114,8 @@ body{
 .flap > .heart {
   transform: rotate(90deg);
   transition-delay: 0.4s;
+}
+
+p{
+  font-size: 5.8px;
 }
